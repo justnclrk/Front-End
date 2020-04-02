@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Functions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(".addclass").click(function(){
+                $("#addclass").addClass("red");
+            });
+            $(".slidetoggle").click(function(){
+                $("#slidetoggle").slideToggle()
+            });
+            $(".append").click(function(){
+                $("#append").append(" <b>What's good?</b>")
+            });
+            $(".show").click(function(){
+                $("#hide-show").show()
+            });
+            $(".hide").click(function(){
+                $("#hide-show").hide()
+            });
+            $(".toggle").click(function(){
+                $("#toggle").toggle()
+            });
+            $(".slide-down").click(function(){
+                $("#slide-down").slideDown(5000, function(){
+                    $(this).fadeIn()
+                })
+            });
+            $(".slide-up").click(function(){
+                $("#slide-up").slideUp(5000, function(){
+                    $(this).fadeOut()
+                })
+            });
+            $("#before").before("<h4>This will display before the paragraph</h4>");
+            $(".after").after("<h4>This will display after the paragraph</h4>");
+            $("#html").html("<span class='red'>Hello <b>Again</b></span>");
+            $("#attr").attr("class","bcolor");
+            $(".val").val(function(){
+                console.log("Cheese Grits")
+            });
+            $(".text").click(function(){
+                $(".text").text("This is the changed text")
+            });
+            $(".data").data( "cats", {first:"Kitten", last:"Steve"});
+            $("span:first").text($(".data").data("cats").first);
+            $("span:last").text($(".data").data("cats").last);
+        })
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>What's Your Function?</h1>
+        <h2>AddClass</h2>
+        <button class="addclass">Add Class Red</button>
+        <p id="addclass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nesciunt esse odio, cupiditate facere magnam itaque corporis excepturi repellat, est sunt, error voluptatem. Eum a quas delectus nobis in iste.</p>
+        <h2>Slidetoggle</h2>
+        <button class="slidetoggle">Slidetoggle</button>
+        <img id="slidetoggle" src="ainsley.png" alt="chef_ainsley">
+        <h2>Append</h2>
+        <button class="append">Append to the p</button>
+        <p id="append">This p will be appended to with a click of the button</p>
+        <h2>Hide & Show</h2>
+        <button class="show">Show</button>
+        <button class="hide">Hide</button>
+        <p id="hide-show">How are you this fine evening?</p>
+        <h2>Toggle</h2>
+        <button class="toggle">Toggle Button</button>
+        <p id="toggle">Toggle this paragrah.</p>
+        <h2>Slide Down/Up & Fade-In/Fade-Out</h2>
+        <button class="slide-down">Slide Down</button>
+        <p id="slide-down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit iure eaque, voluptatem aperiam ex autem repellendus corporis provident, rerum delectus incidunt harum omnis reiciendis quam aspernatur laborum eum. Cupiditate?</p>
+        <hr>
+        <button class="slide-up">Slide Up</button>
+        <p id="slide-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit iure eaque, voluptatem aperiam ex autem repellendus corporis provident, rerum delectus incidunt harum omnis reiciendis quam aspernatur laborum eum. Cupiditate?</p>
+        <h2>Before</h2>
+        <p id="before" class="after">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorum a illo dolores recusandae. Nesciunt error, eveniet doloribus eos laudantium adipisci? Dolorem beatae officia nobis fugit sit provident repellendus harum?</p>
+        <h2>HTML</h2>
+        <p id="html"></p>
+        <h2>Attr</h2>
+        <p id="attr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum assumenda quo ducimus laborum id pariatur nam deserunt enim ad perferendis doloribus, placeat illo impedit debitis voluptatibus voluptate, facilis, reiciendis incidunt!</p>
+        <h2>Val</h2>
+        <p class="val">Check Console</p>
+        <h2>Text</h2>
+        <p class="text">This will change</p>
+        <h2>Data</h2>
+        <p class="data"><span></span> and <span></span> are best friends</p>
+
+    </div>
+</body>
+</html>

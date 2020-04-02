@@ -1,0 +1,130 @@
+/**{
+    border: 1px dotted green;
+}*/
+h3, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin:0px;
+}
+#wrapper{
+    background-color: rgb(38, 81, 117);
+    margin: auto;
+    padding: 0px;
+    height: auto;
+    width: 970px;
+}
+#top_text{
+    color: white;
+    margin: 5px 0px 0px 750px;
+    text-align: right;
+    display: inline-block;
+}
+.yellow{
+    color: yellow;
+    margin: 0px;
+    text-align: right;
+    display: inline-block;
+}
+img{
+    height: 100px;
+    width: 350px;
+    padding: 0px;
+    margin: 0px 0px 0px 40px;
+}
+#searchbox_holder{
+    background-color: darkslategrey;
+    width: 250px;
+    height: 60px;
+    box-shadow: 3px 3px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 310px;
+    display: inline-block;
+    vertical-align: top;
+}
+#searchbox{
+    padding: 10px 5px 10px 10px;
+    margin-left: 15px;
+}
+#search{
+    height: 40px;
+    vertical-align: top;
+    text-align: center;
+}
+#gobutton{
+    background-color: rgb(38, 81, 117);
+    color: white;
+    height: 25px;
+    border-radius: 3px;
+    margin: 7px auto;
+}
+#nav{
+    background: rgb(58, 120, 171);
+    height: 50px;
+    width: 760px;
+    box-shadow: 3px 3px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.navbuttons{
+    display: inline-block;
+    color: white;
+    margin: 12px 20px;
+}
+#sidenav{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 20px 15px 0px 120px;
+    vertical-align: top;
+    text-align: center;
+}
+#text{
+    display: inline-block;
+    width: 600px;
+}
+.text{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    vertical-align: top;
+}
+.text2{
+    color: yellow;
+    text-align: center;
+    display: inline-block;
+    width: 600px;
+    height: auto;
+    vertical-align: top;
+    margin: 4px;
+}
+#whiteblock{
+    width: 720px;
+    height: 250px;
+    background-color: whitesmoke;
+    padding: 0px 125px;
+}
+table{
+    margin: 15px 5px;
+    display: inline-block;
+    width: 345px;
+    vertical-align: top;
+    border-top: 3px solid rgb(134, 176, 189);
+    text-align: center;
+}
+.footer{
+    color: rgb(119, 157, 168);
+    display: inline-block;
+    text-align: center;
+    margin: 15px 0px 0px 90px;
+    width: 200px;
+    height: 40px;
+    
+}
+#copyright{
+    color: rgb(119, 157, 168);
+    text-align: center;
+}

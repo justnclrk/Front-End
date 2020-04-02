@@ -1,0 +1,38 @@
+/**{
+    border: dotted 1px black;
+    margin: 0px;
+    padding: 0px;
+}*/
+#wrapper{
+    width: 950px;
+    background-color: rgb(200, 209, 160);
+    margin: 0px auto;
+    padding: 30px 20px;
+}
+.center{
+    text-align: center;
+}
+.header{
+    height: 75px;
+    width: 150px;   
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+#title{
+    display: inline-block;
+}
+#catninja{
+    background-color: white;
+}
+#blue{
+    border: solid 4px black;
+    padding: 10px;
+    background-color: lightblue;
+}
+#red{
+    border: solid 4px black;
+    padding: 10px;
+    background-color: lightcoral; 
+}

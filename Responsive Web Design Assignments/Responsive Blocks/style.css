@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing includes the padding and border when calculating width */
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 3px;
+}
+#header{
+    background-color: black;
+    color: white;
+    text-align: center;
+   }
+
+#navigation{
+    background-color: lightgreen;
+   }
+
+#main_content{
+    background-color: lightseagreen;
+   }
+
+.subcontents{
+    background-color: lightcoral;
+    border: 1px solid black;
+    margin-top: 5px;
+   }
+
+#advertisement{
+    background-color: lightpink;
+    border: 1px solid black;
+    margin-top: 10px;
+   }
+
+.col {
+     /* set the universial stylings for all columns, regardless of screen size */
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+.row {
+    /* set any stylings you would like for each row, regardless of screen size */
+    padding: 10px;
+}
+
+@media only screen and (max-width: 480px){
+   .sm-4 {
+       width: 100%;
+   }
+   .sm-0 {
+       display: none;
+   }
+}
+
+@media only screen and (min-width: 481px){
+    .med-4 {
+        width: 100%;
+    }
+    .med-3 {
+        width: 74%;
+    }
+    .med-2 {
+        width: 100%;
+    }
+    .med-1 {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .lg-4 {
+        width: 100%;
+
+    }
+    .lg-3 {
+        width: 74%;
+    }
+    .lg-2 {
+        width: 33%;
+    }
+    .lg-1 {
+        width: 25%;
+    }
+}
+
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Disappearing Megazord</title>
+    <linK rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("img").click(function(){
+                $(this).hide()
+            });
+            $("#restore").click(function(){
+                $("img").show()
+            });
+        })
+    </script>
+</head>
+<body>
+    <div>
+        <img class="green" src="megazord.png" alt="megazord">
+        <img class="blue" src="megazord.png" alt="megazord">
+        <img class="red" src="megazord.png" alt="megazord">
+        <img class="yellow" src="megazord.png" alt="megazord">
+    </div>
+    <div>
+        <img class="yellow" src="megazord.png" alt="megazord">
+        <img class="red" src="megazord.png" alt="megazord">
+        <img class="blue" src="megazord.png" alt="megazord">
+        <img class="green" src="megazord.png" alt="megazord">
+    </div>
+    <button id="restore">Restore Pictures!</button>
+</body>
+</html>

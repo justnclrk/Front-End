@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Card</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#button").click(function(){
+			    var first = $("#first").val();
+			    var last = $("#last").val();
+			    var desc = $("textarea").val();
+			    $("#users").append("<div id = 'card'><p>" + first + " " + last+"</p><p id = 'back'> " + desc +"</p></div>");
+				    $("#first").val("");
+				    $("#last").val("");
+				    $("#desc").val("");
+				    return false;
+			    });
+			    $(document).on('click', '#card', function(){
+				    $(this).children().toggle();
+            });
+        })
+    </script>
+    <style>
+        *{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        h2{
+            color: lightcoral;
+            border-bottom: 2px solid lightseagreen;
+            width: 300px;
+        }
+
+        #form-container{
+            width: 300px;
+        }
+        textarea{
+            width: 300px;
+            height: 75px;
+        }
+        #button{
+            margin-top: 10px;
+        }
+        #card{
+	        width: 150px;
+	        height: 75px;
+	        text-align: center;
+	        border: 1px solid lightsalmon;
+	        border-radius: 5px;
+	        margin: 5px 0;
+        }
+        #back{
+	        display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="form-container">
+    <h2>Contact Card Assignment</h2>
+    <form>
+        <p for="first">First Name:
+            <input id="first" type="text" name="first-name">
+        </p>
+        <p for="last">Last Name:
+            <input id="last" type="text" name="last-name">
+        </p>
+        <p for="desc">Description:
+            <textarea id="desc" placeholder="Enter a description about yourself..."></textarea>
+        </p>
+        <input id="button" type="submit" value="Add User">
+    </form>
+    </div>
+    <div id="users">
+    </div>
+</body>
+</html>

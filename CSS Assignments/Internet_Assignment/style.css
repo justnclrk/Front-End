@@ -1,0 +1,172 @@
+/**{
+    border: 1px dotted red;
+}*/
+body{
+    background-color: white;
+    margin: 0px auto;
+    width: 970px;
+}
+.globe{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+h1{
+    display: inline-block;
+    vertical-align: top;
+    margin: 35px 0px 0px 100px;
+}
+h2{
+    color: white;
+    background-color: rgb(51, 110, 160);
+    width: 950px;
+    height: 25px;
+    margin: 10px 0px 0px 0px;
+    padding: 20px 0px 20px 20px;
+}
+.red{
+    color: red;
+}
+.darkblue{
+    color: rgb(100, 152, 196);
+}
+.lightblue{
+    color: rgb(157, 207, 248);
+}
+#sidenav{
+    display: inline-block;
+    width: 200px;
+}
+.sidetext{
+    display: inline-block;
+    width: 200px;
+}
+.bluebutton{
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(51, 110, 160);
+    width: 150px;
+    height: 20px;
+    padding: 5px 20px;
+    text-align: center;
+    margin: 0px 0px 0px 10px;
+}
+.orangebutton{
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(245, 137, 13);
+    width: 170px;
+    height: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 3px 0px 10px 10px;
+}
+hr{
+    margin: 0px;
+}
+#ninja{
+    background-image: url("ad_background.png");
+    width: 180px;
+    height: 300px;
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+    padding: 10px 10px;
+}
+.adtext{
+    color: white;
+    font-size: 25px;
+}
+.adninja{
+    width: 80px;
+    height: 120px;
+}
+.adbutton{
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    background-color: skyblue;
+    width: 120px;
+    height: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 3px 0px 10px 10px;
+}
+#top{
+    display: inline-block;
+    width: 710px;
+    vertical-align: top;
+    margin: 0px 0px 0px 40px;
+}
+.home{
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+    margin: 10px 0px 0px 0px;
+}
+.homelink{
+    display: inline-block;
+    vertical-align: top;
+    margin: 16px 429px 16px 0px;
+}
+.phone{
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
+    margin: 7px 0px;
+}
+.numbers{
+    display: inline-block;
+    width: 165px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+#boldnumber{
+    font-size: 25px;
+}
+#boldheader{
+    font-size: 25px;
+}
+#boldheader2{
+    font-size: 25px;
+}
+#boldheader3{
+    font-size: 25px;
+}
+#text{
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+ul{
+    margin: 15px 0px 0px 0px;
+}
+li{
+    margin: 2px auto;
+}
+#client_server{
+    width: 275px;
+    height: 100px;
+    margin: 3px 210px;
+    
+}
+#footer{
+    border-right: 4px solid rgb(0, 135, 221);
+    border-top: 4px solid rgb(0, 135, 221);
+    border-left: 4px solid rgb(0, 135, 221);
+    padding: 10px;
+    display: inline-block;
+}
+#html_logo{
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+}
+#footer_text{
+    display: inline-block;
+    width: 540px;
+    margin: 0px 0px 0px 25px;
+}

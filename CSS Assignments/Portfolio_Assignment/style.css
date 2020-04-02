@@ -1,0 +1,141 @@
+/**{
+    border: 1px dotted red;
+}*/
+div{
+    font-family: "Arial", Helvetica, sans-serif;
+}
+#header1{
+    background-color: rgb(231, 231, 231);
+    width: 820px;
+    height: 60px;
+    margin: 0px auto;
+    padding: 10px 25px 10px 10px;    
+}
+#title1{
+    display: inline-block;
+    margin: 0px;
+}
+#title2{
+    float: right;
+    margin: 0px;    
+}
+#wrapper{
+    width: 835px;
+    height: 750px;
+    margin: 0px auto;
+    background-color: rgb(71, 2, 71);
+    padding: 10px;
+}
+.jayne{
+    height: 199px;
+    width: 300px;
+    border: 4px solid lightgray;
+}
+#about{
+    display: inline-block;
+    vertical-align: top;
+}
+.about_body{
+    color: white;
+    background-color: gray;
+    width: 485px;
+    height: 20px;
+    margin: 0px 0px 0px 10px;
+    padding: 5px 5px 5px 10px;
+}
+.text{
+    background-color: rgb(247, 247, 247);
+    width: 485px;
+    margin: 0px 0px 0px 10px;
+    padding: 5px 5px 6px 10px;
+}
+#content{
+    display: inline-block;
+    margin: 10px 15px 0px auto;
+    width: 260px;
+    height: auto;
+    vertical-align: top;
+}
+.header3{
+    color: white;
+    background-color: gray;
+    width: 250px;
+    height: 20px;
+    margin: 10px 0px 0px 0px;
+    padding: 5px 0px 5px 10px;
+    vertical-align: top;
+}
+.mini_pics{
+    height: 130px;
+    width: 260px;
+    display: inline-block;
+}
+.text2{
+    background-color: rgb(247, 247, 247);
+    width: 245px; 
+    height: 155px;
+    margin: 0px;
+    padding: 5px 5px 10px 10px;
+    vertical-align: top;    
+}
+#content2{
+    display: inline-block;
+    margin: 0px 15px 0px auto;
+    width: 260px;
+    height: auto;
+    vertical-align: top;
+}
+.technologies{
+    color: white;
+    background-color: gray;
+    width: 250px;
+    height: 20px;
+    margin: 0px;
+    padding: 5px 0px 5px 10px;
+    vertical-align: top;  
+}
+.icon_box{
+    background-color: rgb(247, 247, 247);
+    width: 245px; 
+    height: 175x;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top; 
+}
+.icon{
+    height: 38px;
+    width: 38px;
+    vertical-align: top;
+    margin: 5px;
+}
+#button{
+    border-radius: 5px;
+    margin: 5px auto;
+    border-color: 10px solid black;
+    background-color: green;
+    height: 20px;
+    width: fit-content;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 3px 3px black;
+}
+#footer{
+    width: 835px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 10px;    
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    vertical-align: top;
+}
+.contact_icon{
+    height: 25px;
+    width: 25px;
+}
+#contact{
+    display: inline-block;
+    color: blue;
+    margin: auto 5px;
+    vertical-align: top;
+}

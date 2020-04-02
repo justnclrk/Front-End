@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Responsive Blocks</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .header {
+      height: 150px;
+      width: 100%;
+      background-color: green;
+      margin: 0px 0px 10px 0px;
+      text-align: center;
+    }
+
+    .navigation {
+      height: 300px;
+      width: 200px;
+      background-color: blue;
+      margin: 0px 5px 0px 0px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 969px) {
+      .navigation {
+        display: none;
+      }
+    }
+
+    .main_content {
+      height: auto;
+      background-color: red;
+      display: inline-block;
+      margin: 0px;
+      padding: 10px
+    }
+
+    .subcontents {
+      height: 200px;
+      width: 200px;
+      background-color: yellow;
+      display: inline-block;
+      margin: 10px 10px;
+      text-align: center;
+    }
+
+    .advertisement {
+      height: 120px;
+      width: 650px;
+      background-color: purple;
+      margin: 20px 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="header col-lg-12 col-md-12 col-sm-12"><b>ZORDON</b></div>
+    <div class="navigation col-lg-4 col-md-0 col-sm-0"><b>ALPHA 5</b></div>
+    <div class="main_content col-lg-8 col-md-12 col-sm-12">
+      <div class="subcontents col-lg-4 col-md-4 col-sm-12"><b>POWER COINS</b></div>
+      <div class="subcontents col-lg-4 col-md-4 col-sm-12"><b>MORPHERS</b></div>
+      <div class="subcontents col-lg-4 col-md-4 col-sm-12"><b>ATTITUDE</b></div>
+      <div class="advertisement col-lg-12 col-md-12 col-sm-12"><b>ZORDS</b></div>
+    </div>
+  </div>
+</body>
+
+</html>

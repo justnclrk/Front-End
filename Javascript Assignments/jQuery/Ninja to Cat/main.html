@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja to Cat</title>
+    <linK rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("img").click(function(){
+				$(this).attr("temp", $(this).attr("src"));
+				$(this).attr("src", $(this).attr("alt-src"));
+				$(this).attr("alt-src", $(this).attr("temp"));
+            });
+        })
+    </script>
+</head>
+<body>
+    <div><img src="ninja0.png" alt-src="cat0.png" temp=""></div>
+    <div><img src="ninja1.png" alt-src="cat1.png" temp=""></div>
+    <div><img src="ninja2.png" alt-src="cat2.png" temp=""></div>
+    <div><img src="ninja3.png" alt-src="cat3.png" temp=""></div>
+    <div><img src="ninja4.png" alt-src="cat4.png" temp=""></div>
+</body>
+</html>

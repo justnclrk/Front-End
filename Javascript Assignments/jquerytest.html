@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.date').each(function (index, value) {
+                $('.room').after('<td headers=""></td>')
+            })
+
+        });
+    </script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        .date {
+            background-color: lightcoral;
+        }
+
+        .room {
+            background-color: lightblue;
+        }
+
+        th {
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Room</th>
+            <th id="monday" scope="col" class="date">Sunday</th>
+            <th scope="col" class="date">Monday</th>
+            <th scope="col" class="date">Tuesday</th>
+            <th scope="col" class="date">Wednesday</th>
+            <th scope="col" class="date">Thursday</th>
+            <th scope="col" class="date">Friday</th>
+            <th scope="col" class="date">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row" class="room">Room 100</th>
+        </tr>
+        <tr>
+            <th scope="row" class="room">Room 102</th>
+        </tr>
+        <tr>
+            <th scope="row" class="room">Room 103</th>
+        </tr>
+        <tr>
+            <th scope="row" class="room">Room 104</th>
+        </tr>
+        <tr>
+            <th scope="row" class="room">Room 105</th>
+        </tr>
+    </table>
+</body>
+
+</html>
